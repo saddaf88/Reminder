@@ -1,0 +1,6 @@
+module Pods_sehri_reminder_sehri_reminderTests {
+  umbrella header "Pods-sehri_reminder-sehri_reminderTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

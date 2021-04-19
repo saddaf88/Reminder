@@ -1,0 +1,6 @@
+module Pods_sehri_reminder {
+  umbrella header "Pods-sehri_reminder-umbrella.h"
+
+  export *
+  module * { export * }
+}
