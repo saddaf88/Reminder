@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { View, Text, Button } from 'react-native';
-import { notification } from './src/notification'
+import { clickNotification } from './src/notification'
 
 class App extends Component {
 	constructor(props) {
@@ -10,9 +10,7 @@ class App extends Component {
 	}
 	clickForNotification = () => {
 		console.log("Clicking for notification")
-		notification.configure();
-		notification.createChannel("9802222");
-		notification.clickNotification("9802222", "test", "My 1st notification")
+		clickNotification("980022", "test", "My 1st notification")
 	}
 
 	render() {
